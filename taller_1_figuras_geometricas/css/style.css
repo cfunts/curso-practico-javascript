@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #196F3D;
+}
+
+/*----------------------------------*/
+
+.encabezado{
+    margin: 1rem;
+    margin-right: 1rem;
+    width: 97%;
+    height: 20%;
+    background-color: #ff0;
+    display: grid;
+    grid-template-rows: 1fr;
+    border: 2px solid #F1C40F;
+}
+
+.encabezado h1{
+    font-size: 3rem;
+    margin: 15px;
+    text-align: center;
+    border: 2px solid #F1C40F;
+    
+}
+
+.encabezado p{
+    font-size: 1rem;
+    text-align: center;
+    margin: 3px;
+    
+}
+
+/*----------------------------------*/
+.principal-container{
+    margin: 1rem;
+    margin-right: 1rem;
+    width: 97%;
+    height: 80%;
+    font-size: 62.5%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: #ECF0F1;
+    justify-items: center;
+    border: 2px solid #F1C40F;
+}
+/*---------------------------------*/
+.principal-container .cuadrado-container{
+    width: 90%;
+    height: 80%;
+    margin: 0.5rem;
+    background-color: rgb(0, 255, 21);
+    display: block;
+}
+.principal-container .cuadrado-container h2{
+    font-size: 1.25rem;
+    background-color: #196F3D;
+    display: block;
+}
+
+.principal-container .cuadrado-container form{ 
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #B3B6B7;
+    border: 2px solid #196F3D;
+}
+
+.principal-container .cuadrado-container form .input-c{
+    justify-content: space-between;
+}
+
+
+.principal-container .cuadrado-container form .button-c{
+    justify-content: space-between;
+}
+
+
+.principal-container .cuadrado-container form .input-c label{
+    font-size: medium;
+    font-weight: 300;
+}
+.principal-container .cuadrado-container form .button-c button{
+    width: 100px;
+    display: inline-flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+/*----------------------------------------------*/
+
+
+
+/*----------------------------------------------*/
+.principal-container .triangulo-container{
+    width: 90%;
+    height: 80%;
+    margin: 0.5rem;
+    background-color: rgb(0, 255, 21);
+    display: inline-block;
+}
+
+.principal-container .triangulo-container h2{
+    font-size: 1.25rem;
+    background-color: #196F3D;
+}
+
+.principal-container .triangulo-container form{
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #B3B6B7;
+    border: 2px solid #196F3D;
+}
+.principal-container .triangulo-container form .input-t{
+    display: block;
+}
+
+.principal-container .triangulo-container form .input-t div{
+    margin: 0.3rem;
+}
+
+.principal-container .triangulo-container form .button-t button{
+    width: 100px;
+    display: inline-flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+/*----------------------------------------------*/
+
+/*----------------------------------------------*/
+.principal-container .circulo-container{
+    width: 90%;
+    height: 80%;
+    margin: 0.5rem;
+    background-color: #196F3D;
+}
+.principal-container .circulo-container h2{
+    font-size: 1.25rem;
+    background-color: #196F3D;
+    display: block;
+}
+
+.principal-container .circulo-container form{
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #B3B6B7;
+    border: 2px solid #196F3D;
+}
+
+.principal-container .circulo-container form .input-cir{
+    justify-content: space-between;
+}
+
+
+.principal-container .circulo-container form .button-cir{
+    justify-content: space-between;
+}
+
+
+.principal-container .circulo-container form .input-cir label{
+    font-size: medium;
+    font-weight: 300;
+}
+
+.principal-container .circulo-container form .button-cir button{
+    width: 100px;
+    display: inline-flex;
+    margin: 2px;
+    justify-content: space-between;
+}
+/*----------------------------------------------*/
+
