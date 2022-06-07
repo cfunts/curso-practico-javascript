@@ -1,9 +1,3 @@
-function calcularMediaAritmetica(lista)
-{
-    const sumaLista=lista.reduce(function(valorAcumulado=0,nuevoElemento){return valorAcumulado+nuevoElemento;});
-    const promedioLista=sumaLista/lista.length;return promedioLista;
-}
-
 const lista1=[100,200,500,400000000,];
 const mitadLista1=parseInt(lista1.length/2);
 
